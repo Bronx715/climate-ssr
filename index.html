@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateCare & SSR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ClimateCare & SSR</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#alertes">Alertes Climatiques</a></li>
+                <li><a href="#sante">Conseils de Santé</a></li>
+                <li><a href="#ateliers">Ateliers & Événements</a></li>
+                <li><a href="#contact">Contact & Aide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenue sur ClimateCare & SSR</h2>
+        <p>Nous vous aidons à gérer les crises climatiques et à améliorer l'accès à la santé sexuelle et reproductive.</p>
+    </section>
+
+    <section id="alertes">
+        <h2>Alertes Climatiques</h2>
+        <p>Recevez des notifications sur les risques climatiques en temps réel.</p>
+        <!-- Exemple de carte d'alerte -->
+        <div id="map">
+            <p>Carte des alertes (inondations, cyclones, etc.)</p>
+        </div>
+    </section>
+
+    <section id="sante">
+        <h2>Conseils de Santé</h2>
+        <p>Informations essentielles sur la santé sexuelle et reproductive.</p>
+        <ul>
+            <li><a href="#">Grossesse</a></li>
+            <li><a href="#">Contraception</a></li>
+            <li><a href="#">Prévention des infections</a></li>
+        </ul>
+    </section>
+
+    <section id="ateliers">
+        <h2>Ateliers & Événements</h2>
+        <p>Inscrivez-vous aux ateliers de sensibilisation et événements locaux.</p>
+        <!-- Liste d'événements -->
+        <ul>
+            <li>Atelier 20 - 30 Novembre 2024</li>
+            <li>Atelier 10 - 20 Décembre 2024</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact & Aide</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ClimateCare & SSR - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
